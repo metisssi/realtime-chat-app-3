@@ -10,4 +10,7 @@ module.exports = {
     extend: {},
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["dark"], // 👈 включает тёмную тему навсегда
+  },
 }
