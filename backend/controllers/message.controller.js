@@ -60,6 +60,7 @@ export const getMessages = async (req, res) => {
         
         const message = conversation.messages;
 
+        console.log("Messages data:", message);
         res.status(200).json(message); 
 
 
